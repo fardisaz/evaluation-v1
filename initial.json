@@ -1,0 +1,257 @@
+{
+  "ideas": [
+    {
+      "id": "1",
+      "title": "Idea 1",
+      "position": {
+        "left": 183,
+        "top": 686
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "2",
+      "title": "Idea 2",
+      "position": {
+        "left": 278,
+        "top": 469
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "3",
+      "title": "Idea 3",
+      "position": {
+        "left": 820,
+        "top": 414
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "4",
+      "title": "Idea 4",
+      "position": {
+        "left": 630,
+        "top": 252
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "5",
+      "title": "Idea 5",
+      "position": {
+        "left": 399,
+        "top": 643
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "6",
+      "title": "Idea 6",
+      "position": {
+        "left": 706,
+        "top": 189
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "7",
+      "title": "Idea 7",
+      "position": {
+        "left": 548,
+        "top": 297
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "8",
+      "title": "Idea 8",
+      "position": {
+        "left": 897,
+        "top": 249
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "9",
+      "title": "Idea 9",
+      "position": {
+        "left": 705,
+        "top": 601
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "10",
+      "title": "Idea 10",
+      "position": {
+        "left": 825,
+        "top": 691
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "11",
+      "title": "Idea 11",
+      "position": {
+        "left": 573,
+        "top": 411
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "12",
+      "title": "Idea 12",
+      "position": {
+        "left": 742,
+        "top": 307
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "13",
+      "title": "Idea 13",
+      "position": {
+        "left": 726,
+        "top": 433
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "14",
+      "title": "Idea 14",
+      "position": {
+        "left": 954,
+        "top": 152
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "15",
+      "title": "Idea 15",
+      "position": {
+        "left": 1375,
+        "top": 437
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "16",
+      "title": "Idea 16",
+      "position": {
+        "left": 1197,
+        "top": 440
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "17",
+      "title": "Idea 17",
+      "position": {
+        "left": 1075,
+        "top": 143
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "18",
+      "title": "Idea 18",
+      "position": {
+        "left": 1287,
+        "top": 298
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "19",
+      "title": "Idea 19",
+      "position": {
+        "left": 1078,
+        "top": 265
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "20",
+      "title": "Idea 20",
+      "position": {
+        "left": 1170,
+        "top": 343
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "21",
+      "title": "Idea 21",
+      "position": {
+        "left": 919,
+        "top": 520
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "22",
+      "title": "Idea 22",
+      "position": {
+        "left": 664,
+        "top": 717
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    },
+    {
+      "id": "23",
+      "title": "Idea 23",
+      "position": {
+        "left": 1059,
+        "top": 437
+      },
+      "description": "",
+      "classification": "",
+      "answers": []
+    }
+  ]
+}

@@ -10,6 +10,9 @@
       button-text="Save Evaluation"
     >
     </download>
+    <!-- Import txt file -->
+    <!-- <textarea rows="10" v-model="text"></textarea> -->
+    <file-reader @load="loadIdeas" class="import_button"></file-reader>
     <div class="classification">
       <h3>Novel Ideas</h3>
     </div>
@@ -24,14 +27,29 @@
 <script>
 import Download from './Download.vue';
 import DraggableItems from './DraggableItems.vue';
+import FileReader from './FileReader.vue';
+
 export default {
-  components: { DraggableItems, Download },
+  components: { DraggableItems, Download, FileReader },
+
   data() {
     return {
-      isDescriptionOpened: false
+      isDescriptionOpened: false,
+      text: ''
     };
   },
-  methods: {}
+  methods: {
+    loadIdeas(input) {
+      //loaded ideas by the user
+      const loads = input.split('//');
+      // console.log(loads);
+      let ideas = this.$store.state.ideas;
+      //write the loaded ideas into the description of idea json
+      ideas.map((idea, index) => {
+        idea.description = loads[index];
+      });
+    }
+  }
 };
 </script>
 
@@ -59,6 +77,17 @@ export default {
   width: 10rem;
   background: rgb(167, 148, 179);
   right: 0;
+  position: absolute;
+}
+.import_button {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 15px;
+  width: 10rem;
+  background: rgb(167, 148, 179);
+  flex: 0;
+  right: 0px;
+  top: 150px;
   position: absolute;
 }
 </style>
