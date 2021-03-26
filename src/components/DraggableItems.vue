@@ -140,7 +140,8 @@ export default {
       antiNovelDialog: false,
       antiNovelTitle: null,
       novelAnswers: ['', '', ''],
-      antiNovelAnswers: ['', '', '', '']
+      antiNovelAnswers: ['', '', '', ''],
+      currentIdea: null
     };
   },
   methods: {
@@ -151,14 +152,18 @@ export default {
     },
     closeDialog() {
       this.clicked = false;
+      console.log(this.novelAnswers);
     },
     closeNovel() {
       this.novelDialog = false;
+      //console.log(this.novelAnswers);
+      //console.log(this.currentIdea);
+      this.$store.dispatch('changeIdeas', this.currentIdea);
       this.novelAnswers = ['', '', ''];
     },
     closeAntiNovel() {
       this.antiNovelDialog = false;
-      console.log(this.antiNovelAnswers);
+      this.$store.dispatch('changeIdeas', this.currentIdea);
       this.novelAnswers = ['', '', '', ''];
     },
     positionCalculation(x, y, id, title) {
@@ -171,15 +176,22 @@ export default {
           top: y
         }
       };
+      this.currentIdea = newIdea;
       //console.log(newIdea);
       this.$store.dispatch('changeIdeas', newIdea);
       //console.log(this.$store.state.ideas);
       if (110 < y && y < 300 && 10 < x && x < 430) {
         this.novelDialog = true;
         this.novelTitle = title;
+        newIdea.classification = 'Novel';
+        newIdea.answers = this.novelAnswers;
+        this.$store.dispatch('changeIdeas', newIdea);
       } else if (607 < y && y < 809 && 1005 < x && x < 1407) {
         this.antiNovelDialog = true;
         this.antiNovelTitle = title;
+        newIdea.classification = 'Not Novel';
+        newIdea.answers = this.antiNovelAnswers;
+        this.$store.dispatch('changeIdeas', newIdea);
       }
     }
   },

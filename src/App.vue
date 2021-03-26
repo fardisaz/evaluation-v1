@@ -1,13 +1,16 @@
 <template>
   <the-header></the-header>
+  <main-layout></main-layout>
   <router-view></router-view>
 </template>
 
 <script>
 import TheHeader from './components/layouts/TheHeader';
+import MainLayout from './components/layouts/MainLayout.vue';
 export default {
   components: {
-    TheHeader
+    TheHeader,
+    MainLayout
   }
 };
 </script>
